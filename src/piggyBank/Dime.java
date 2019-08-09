@@ -3,11 +3,7 @@ package piggyBank;
 public class Dime extends AbstractCoin 
 
 {
-	public Dime(int amount) 
-	{
-		super(int amount);
-	}
-
+    private int dimes;
     
     public Dime(int dime)
     {
@@ -23,6 +19,12 @@ public class Dime extends AbstractCoin
     public double getValue()
     {
         return dime * 0.10;
+    }
+
+     public String getName()
+    {
+        String plural = dimes > 1 ? "s":"";
+        return this.dimes + " Dime" + plural;
     }
 }
 

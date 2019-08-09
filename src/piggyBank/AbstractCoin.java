@@ -1,5 +1,7 @@
 public abstract class AbstractCoin;
+
 {
+
     public abstract String getName();
     
     public abstract double getValue();
@@ -7,5 +9,5 @@ public abstract class AbstractCoin;
     @Override
     public String toString(){
         return getName();
-    }
+    
 }
