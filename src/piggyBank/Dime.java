@@ -9,20 +9,20 @@ public class Dime extends AbstractCoin
 	}
 
     
-    public Dimes(int dimes)
+    public Dime(int dime)
     {
         this.dime = dime;
     }
 
-    public Dimes()
+    public Dime()
     {
-        this.dimes = this.dimes + 1;
+        this.dime = this.dime + 1;
     }
 
 
     public double getValue()
     {
-        return dimes * 0.10;
+        return dime * 0.10;
     }
 }
 
