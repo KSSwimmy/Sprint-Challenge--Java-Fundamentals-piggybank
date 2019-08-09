@@ -1,5 +1,8 @@
 package piggyBank;
 
+//A Quarter worth $0.25
+
+
 public class Quarter extends AbstractCoin 
 {
 	  private int quarter;

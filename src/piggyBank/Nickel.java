@@ -1,5 +1,8 @@
 package piggyBank;
 
+//A Nickel worth $0.05
+
+
 public class Nickel extends AbstractCoin 
 {
 	private int nickel;
